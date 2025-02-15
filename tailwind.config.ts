@@ -9,10 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
+        textFooter: '#72777A',
+        textColor: '#000000',
+
         primary: {
           main: '#252E45',
-          // light: '',
-          // dark: '',
         },
       },
       textColor: {
