@@ -26,7 +26,6 @@ export default function AccountDeletionForm() {
     setSuccess('Account deleted successfully.');
     console.log('Phone Number:', phoneNumber);
     
-    // Clear input after success
     setPhoneNumber('');
   };
 

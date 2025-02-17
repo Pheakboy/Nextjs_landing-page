@@ -1,12 +1,31 @@
+import { Metadata } from 'next';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
 import FooterComponent from '@/components/footer/FooterCompoent';
 
+export const metadata: Metadata = {
+  title: 'InstaFoodKH',
+  description: 'Find great restaurants for your daily meal today.',
+  openGraph: {
+    title: 'InstaFoodKH',
+    description: 'Find great restaurants for your daily meal today.',
+    images: [
+      {
+        url: '/image/instaFood_logo.jpg',
+        width: 800,
+        height: 600,
+        alt: 'InstaFoodKH Logo',
+      },
+    ]
+  },
+};
+
 export default function LandingPage() {
   return (
     <div className='min-h-screen max-w-full mx-auto flex flex-col items-center bg-white'>
-      <header className='w-full py-6 flex justify-center relative'>
+      <header className='w-full py-6  flex justify-center relative'>
         <Link href='/'>
           <Image
             src='/image/instaFood_logo.jpg'
@@ -17,9 +36,9 @@ export default function LandingPage() {
         </Link>
       </header>
 
-      <div className='mt-28 w-full flex flex-col md:flex-row justify-between bg-gray-900 text-white px-5 md:px-28 md:py-20'>
-        <div className='container relative mx-auto flex flex-col items-center justify-between md:flex-row'>
-          <div className='flex flex-col items-center md:items-start text-center md:text-left my-5 max-w-xs md:max-w-none'>
+      <div className='mt-28 w-full flex flex-col xl:flex-row justify-between bg-gray-900 text-white px-5 md:px-28 md:pt-20 xl:py-20 pt-20'>
+        <div className='container mx-auto relative flex flex-col items-center justify-between xl:flex-row my-0'>
+          <div className='flex flex-col items-center xl:items-start text-center xl:text-left  max-w-xs xl:max-w-none'>
             <Image
               src='/image/instaFood_icon.svg'
               alt='App logo'
@@ -39,7 +58,7 @@ export default function LandingPage() {
               Available On!
             </p>
 
-            <div className='flex flex-wrap justify-center md:justify-start gap-3 mt-2'>
+            <div className='flex flex-wrap justify-center xl:justify-start gap-3 mt-2'>
               <Link href='#'>
                 <Image
                   src='/image/apple_logo.svg'
@@ -66,13 +85,13 @@ export default function LandingPage() {
               </Link>
             </div>
           </div>
-          <div className='flex justify-center md:absolute md:right-10 md:bottom-[-64px] md:block mt-5 mb-[-17px] md:mt-0'>
+          <div className='flex justify-center xl:absolute xl:right-10 xl:bottom-[-64px] xl:block mt-5 mb-[-17px] xl:mt-0 xl:pb-0'>
             <Image
               src='/image/image_right.png'
               alt='App Preview'
               width={531}
               height={646}
-              className='rounded-lg max-w-full h-auto mb-4 md:mb-0'
+              className='rounded-lg max-w-full h-auto mb-4 xl:mb-0'
             />
           </div>
         </div>

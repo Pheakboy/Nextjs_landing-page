@@ -39,7 +39,7 @@ export default function FooterComponent() {
       </p>
       <div className='flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 pt-6'>
         <Link href='/privacy'>
-          <p className='text-textFooter underline cursor-pointer mx-1 font-medium'>
+          <p className='text-textFooter underline cursor-pointer mx-1'>
             Terms & Privacy
           </p>
         </Link>
