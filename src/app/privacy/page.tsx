@@ -34,24 +34,24 @@ export default function PrivacyPolicy() {
         <h2 className='text-textColor text-lg font-semibold py-8'>
           1. INTRODUCTION AND OUR RULES
         </h2>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           We provide you a simpler way to get home delivery of your favorite
           food, bakery, and drink from different restaurants, bakeries, and
           cafés.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Delivery of your order on time.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           You can access the website without registration but for placing an
           order you have to register and provide us with the basic information.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           If you use any services of instafoodkh.com, it means you accept the
           Terms &amp; Conditions of instafoodkh.com. If you don&rsquo;t agree
           with any terms of instafoodkh.com, you can leave the website anytime.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Before using the services of instafoodkh.com, you have to agree with
           the terms and conditions of instafoodkh.com. instafoodkh.com has the
           right to change or modify these conditions whenever required and does
@@ -63,12 +63,12 @@ export default function PrivacyPolicy() {
         <h2 className='text-textColor text-lg font-semibold py-8'>
           2. HOW TO MAKE AN ORDER AND HOW IT IS PROCESSED
         </h2>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Once you have selected your order from the menu of your chosen
           restaurant, you will be asked to confirm or to cancel your order. Once
           confirmed you will get a confirmation email.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Please note it is important that you check the information that you
           enter and correct any errors before clicking on the &quot;Place Order
           Now&quot; button, especially address and phone number.
@@ -78,20 +78,20 @@ export default function PrivacyPolicy() {
         <h2 className='text-textColor text-lg font-semibold py-8'>
           3. PRICE AND PAYMENT
         </h2>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Nham24.com is an online marketplace and we are not responsible to
           collect and pay any relevant taxes on behalf of the participating
           restaurants.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           In case you have any complaint about the quality of food or delivery
           service provided by nham24.com, please call to 011/015 6426 24. Our
           service staff will do their best to assist you.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Payment in cash at the point of delivery to you.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           A discount may apply to your order if you use a promotional code
           recognized by nham24.com and endorsed by nham24.com.
         </p>
@@ -100,13 +100,13 @@ export default function PrivacyPolicy() {
         <h2 className='text-textColor text-lg font-semibold py-8'>
           4. LICENCE
         </h2>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           The copyright rights of nham24.com website and materials published on
           it (including photographs and menus) are owned by Restaurant Owners.
           These works are protected by copyright laws and treaties around the
           world and all rights are reserved.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           You are not allowed to use any of the materials on nham24.com website
           for commercial purposes without getting a license from nham24.com to
           do so.
@@ -116,11 +116,11 @@ export default function PrivacyPolicy() {
         <h2 className='text-textColor text-lg font-semibold py-8'>
           5. DELIVERY POLICY
         </h2>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           Delivery Time mentioned for a particular restaurant are approximate
           only and vary.
         </p>
-        <p className='text-textColor text-base pb-4 font-medium'>
+        <p className='text-textColor text-base pb-4 '>
           All orders are delivered by nham24.com team, we and the restaurants
           will make every effort to deliver the order within time stated,
           however, we will not be liable for any loss caused to you by late
