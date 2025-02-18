@@ -12,7 +12,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   description: 'Find great restaurants for your daily meal today.',
   openGraph: {
-    title: 'InstaFoodKH',
     description: 'Find great restaurants for your daily meal today.',
     images: [
       {
