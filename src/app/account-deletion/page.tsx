@@ -6,7 +6,7 @@ import AccountDeleteComponent from '@/components/accountDelete/AccountDeleteComp
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Account Deletion ',
+  title: 'Account Deletion | InstaFoodKH',
 };
 
 export default function AccountDeletionForm() {
