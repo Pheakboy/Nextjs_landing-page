@@ -6,20 +6,7 @@ import Link from 'next/link';
 import FooterComponent from '@/components/footer/FooterCompoent';
 
 export const metadata: Metadata = {
-  title: 'InstaFoodKH',
-  description: 'Find great restaurants for your daily meal today.',
-  openGraph: {
-    title: 'InstaFoodKH',
-    description: 'Find great restaurants for your daily meal today.',
-    images: [
-      {
-        url: '/image/instaFood_logo.jpg',
-        width: 800,
-        height: 600,
-        alt: 'InstaFoodKH Logo',
-      },
-    ]
-  },
+  title: 'InstaFoodKH', 
 };
 
 export default function LandingPage() {

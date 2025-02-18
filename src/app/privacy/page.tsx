@@ -4,15 +4,9 @@ import Link from 'next/link';
 import FooterComponent from '@/components/footer/FooterCompoent';
 import { Metadata } from 'next';
 
-export const metadata:Metadata = {
-  title: 'InstaFoodKH',
-  description: 'Find great restaurants for your daily meal today.',
-  openGraph: {
-    url: '/image/instaFood_logo.jpg',
-    title: 'InstaFoodKH',
-    description: 'Find great restaurants for your daily meal today.'
-  }
-}
+export const metadata: Metadata = {
+  title: 'Privacy',
+};
 
 export default function PrivacyPolicy() {
   return (
